@@ -1,0 +1,47 @@
+.ufc_place{
+    height:500px;
+    width:auto;
+
+    margin-left:5%;
+    margin-right:5%;
+    display:flex;
+    justify-content: space-around;
+
+
+
+    .card{
+        height:350px;
+        width:250px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: white;
+        border-radius: 5px;
+       
+
+
+        svg{
+            color:orange;
+            margin-top:10%;
+            margin-left:5%;
+        }
+
+        h1{
+            color:#0D6CB9;
+            font-size: 25px;
+            margin-top:7%;
+            margin-left:5%;
+            font-weight: bold;
+
+        }
+        p{
+            color:grey;
+            margin-left:5%;
+        }
+
+    }
+
+
+    
+}
+
+

@@ -1,0 +1,39 @@
+.teaser_intro{
+    height: 800px;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .teaser_topic{
+        color:white;
+        margin-bottom:4%;
+        font-weight: 800;
+    }
+
+    .teaser_p{
+        text-align: center;
+        color:white;
+        line-height: 15px;;
+    }
+
+}
+
+.button_read_more{
+    button{
+    color:white;
+    border-radius: 20px;
+    height:40px;
+    width:150px;
+    border-style: solid;
+    border-color: orange;
+    background-color: transparent;
+    margin-top:40px;
+    }
+}
+
+
+//<h1 class="teaser_topic">Welcome to Anyar</h1>
+//<p class="teaser_p">
