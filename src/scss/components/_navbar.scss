@@ -6,9 +6,6 @@
 }
 
 .navigation{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
     padding-left:10%;
     padding-right:10%;
 
@@ -40,9 +37,6 @@
 
 }
 
-
-
-
 .navbar-custom{
     height:100px;
     
@@ -57,6 +51,7 @@
 .navbar{
     color:white;
     background-color:rgba(0, 0, 0, 0.11);
+    
 
 }
 .navbar-brand{
@@ -81,4 +76,3 @@
     display:flex;
     margin-left:50%;
 }
-
