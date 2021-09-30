@@ -1,25 +1,16 @@
+
 .navigation{
     height:100px;
     width:auto;
-    background-color:rgba(0, 0, 0, 0.11)
-
-}
-
-.navigation{
+    background-color:rgba(0, 0, 0, 0.11);
     padding-left:10%;
     padding-right:10%;
-
-
-
     h1{
         color:white;
         font-weight: 250;
     }
-
     .navigation_leiste{
         color:rgba(255, 255, 255, 0.7);
-
-
         a{
            
             margin-left:25px;
@@ -29,12 +20,8 @@
                 cursor: pointer;
                
             }
-        }
-
-     
+        }  
     }
-
-
 }
 
 .navbar-custom{
@@ -45,6 +32,7 @@
 
 .navbar-brand{
     margin-left:50px;
+    
 
 }
 
@@ -52,27 +40,17 @@
     color:white;
     background-color:rgba(0, 0, 0, 0.11);
     
-
 }
-.navbar-brand{
-    color:white;
-
-    &:hover{
-        color:white;
-
-    }
-}
-
-.navbar-nav li a{
-    color:rgba(255, 255, 255, 0.555);
-    text-decoration: none;
-
-    &:hover{
-    color:white;
-}
-}
-
 .navbar-nav{
     display:flex;
     margin-left:50%;
+}
+.navbar-brand-color{
+    color:white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 200;
+}
+.nav-link{
+    color:white;
 }
