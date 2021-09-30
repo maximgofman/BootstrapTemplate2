@@ -45,6 +45,8 @@
 
 .navbar-custom{
     height:100px;
+    
+
 }
 
 .navbar-brand{
@@ -59,15 +61,24 @@
 }
 .navbar-brand{
     color:white;
+
+    &:hover{
+        color:white;
+
+    }
 }
 
 .navbar-nav li a{
     color:rgba(255, 255, 255, 0.555);
     text-decoration: none;
 
+    &:hover{
+    color:white;
+}
 }
 
 .navbar-nav{
     display:flex;
-    margin-left:40%;
+    margin-left:50%;
 }
+
